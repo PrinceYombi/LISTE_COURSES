@@ -1,0 +1,17 @@
+UTILISATION DE L'APPLICATION
+
+ Vous avez un champs de saisis pour entrer votre article
+
+ Après avoir saisis l'article, cliquez sur ajouter pour l'inserer dans la liste
+
+ Une fois la liste établie vous pouvez effectuer des actions
+
+ L'action modifier, vous permet de renommer votre article puis le sauvegarder
+
+ L'action supprimer, vous permet de supprimer votre article definitivement dans la liste
+
+ L'action acheter, vous permet d'effectuer l'achat de l'article
+
+ Un article acheté ne peut plus être modifié ni supprimer
+
+ Vous avez la possibilité de vider votre liste avec le bouton Vider la liste

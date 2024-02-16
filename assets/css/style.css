@@ -1,0 +1,194 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: blue;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+img{
+    height: 90%;
+    border: .3rem solid blue;
+    border-radius: 50%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    width: 100%;
+}
+
+.liste-content{
+    width: 600px;
+    max-width: 90%;
+    
+}
+a{
+    text-decoration: none;
+}
+
+.add-liste{
+    font-size: 1.7rem;
+    color: violet;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.research-liste{
+    margin-bottom: 1rem;
+}
+.research-liste input{
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.liste-title{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+ul{
+    list-style: none;
+}
+.articles .article{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 10px 0;
+}
+.article span,
+.article input{
+    flex: 1;
+}
+.article span.sell{
+    font-style: italic;
+    text-decoration: line-through;
+    color: green;
+}
+.article input{
+    outline: none;
+    height: 35px;
+}
+.article button{
+    padding: 10px 15px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.article .btn-primary{
+    background-color: blue;
+}
+.article .btn-save{
+    background-color: rgb(129, 129, 113);
+}
+.article .btn-success{
+    background-color: green;
+}
+.article .btn-danger{
+    background-color: red;
+}
+
+.article button.disabled{
+    cursor: not-allowed;
+    color: green;
+}
+
+.reset-liste{
+    width: 100%;
+    padding: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #ccc;
+    display: none;
+}
+
+/*******************************DOCUMENTATION******************************/
+.roule-content{
+    position: relative;
+    min-width: 400px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, .1);
+}
+
+.roule-header{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+.roule-content{
+    width: 700px;
+}
+
+.roule-body{
+    margin-bottom: 70px;
+}
+.roule-body ul li{
+    list-style: decimal;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+.submit{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.submit button{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: #03cae4;
+    border: none;
+    border-radius: 0 0 10px 10px;
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 900;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.submit button:focus{
+    background-color: teal;
+}
+
+.submit button::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: blue;
+    border-radius: 0 0 10px 10px;
+    z-index: -1;
+    transition: .5s;
+}
+.submit button:hover::before{
+    width: 100%;
+}
+
+
+
